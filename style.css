@@ -1,0 +1,133 @@
+/*
+4d44a0
+ff57ae
+
+*/
+body{
+    background-color: rgba(220, 221, 221, 0.664);
+
+}
+
+.Website {
+    margin: 0% 5% 0% 5%;
+    font-family: sans-serif;
+    position: center;
+    font-size: 16px;
+
+}
+
+header {
+    width: 80%;
+    background-color: white;
+    border-bottom: grey, solid;
+    position: fixed;
+    z-index: 1;
+}
+
+.picture{
+
+    width:35%; 
+    height: auto;
+    padding-left:85px;
+
+}
+
+.mailbox{
+    float: right;
+    width:4%; 
+    height: auto;
+    padding: 20px 20px 0px 0px;
+
+}
+
+navigator {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 88.5%;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color:rgba(220, 221, 221, 0.664);
+    margin-top: 7%;
+    position: fixed;   
+    font-family: 'Roboto', sans-serif;
+    z-index: 1;
+}
+navigator a{
+    font-size: 100%;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+navigator a:hover{
+    color: rgba(0, 0, 0, 0.664);
+    text-decoration: none;
+    text-shadow:
+    -1px -1px 0 rgba(166, 193, 240, 0.664),
+    1px -1px 0 rgba(166, 193, 240, 0.664),
+    -1px 1px 0  rgba(166, 193, 240, 0.664),
+    1px 1px 0 rgba(166, 193, 240, 0.664); 
+}
+
+
+#front{
+    align-content: center;
+}
+
+main{
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-block-end-width: 50px;
+    padding-top: 15%;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+#introText {
+    padding: 0px 300px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    position: relative;
+    left: 0;
+    outline: none;
+    border-color: rgba(70, 69, 69, 0.15);
+    background-color: white;
+    font-size: 14px;
+    color: rgb(95, 94, 94);
+    letter-spacing: 1px;
+}
+
+footer {
+    align-content: right;
+    padding: 20px 140px 0px 0px;
+    height: 80px;
+    background-color:white;
+    border-style: solid;
+    border-color: white;
+    border-block-end-width: 20px;
+    position: bottom;
+
+}
+
+
+.social{
+    width:3%; 
+    height: auto;
+    float: right;
+    padding-right: 10px;
+}
+
+.top{
+    text-align: center;
+    
+}
